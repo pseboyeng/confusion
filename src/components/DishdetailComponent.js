@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody,CardTitle } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody,CardTitle } from 'reactstrap';
 
 class DishDetail extends Component{
     constructor(props){
@@ -13,7 +13,7 @@ class DishDetail extends Component{
                       <CardTitle>{this.props.name}</CardTitle>
                       <CardText>{this.props.description}</CardText>
                     </CardBody>
-                </Card>
+            </Card>
         );
     }
 }
