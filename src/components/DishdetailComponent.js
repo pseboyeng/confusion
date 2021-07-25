@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody,CardTitle } from 'reactstrap';
 
 class DishDetail extends Component{
-    constructor(props){
-        super(props);
-    }
-    render(){
+    render(props){
         return(
             <Card >
                     <CardImg top src={this.props.image} alt={this.props.name} />
